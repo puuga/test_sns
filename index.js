@@ -16,7 +16,7 @@ app.get('/', function(req, res) {
 
 app.get('/form', function(req, res) {
   // res.send('Hello World!');
-  res.sendFile(path.join(__dirname, 'public', 'index.html'));
+  res.sendFile(path.join(__dirname, 'public', 'form.html'));
 });
 
 app.post('/sns', function(req, res) {
